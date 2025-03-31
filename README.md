@@ -1,13 +1,38 @@
 # PyTorch-
-My journey of learning PyTorch 1 portion at a time.
+# PyTorch Learning Journey
 
-The 00_fundamentals notebook consisits of the basics like matrix multiplication as well as basic pytorch commands and how tensors work.
+This repository documents my step-by-step exploration of PyTorch, focusing on various aspects of deep learning. Each notebook delves into specific topics, providing code examples and explanations.
 
-The second 01_workflow notebook outlines how to build a simple PyTorch model from start to end. Firstly we have to prepare the data and turn them into tensors, followed by building a model (picking a loss function and optimizer, and building a training loop). Fitting the model to the data and making a prediction, evaluating the model and then improving the model through experimentation
+## Notebooks Overview
 
-The 02_neuralnetworkclassification notebook shows how to do binary classification using a PyTorch model
-02.5_multiclassclassification builds on the the previous notebook to now do multiclass classification instead of just binary classification 
+1. **00_PyTorch_fundamentals.ipynb**
+   - **Description:** Introduces the basics of PyTorch, including tensor operations and foundational commands.
 
-03_computervision introdueces the usage of images as data. The notebook outlines the process of making a computer vision model using PyTorch to be able to identify images from the fashionMNIST dataset. It also experiments with the use of a Convolutional Neural Network (CNN) to leverage its capabilities in finding patterns in visual data.
+2. **01_PyTorch_workflow.ipynb**
+   - **Description:** Outlines the end-to-end process of building a simple PyTorch model, from data preparation to model evaluation.
 
-Finally the 04_customdatasets notebook puts everything together and builds a computer vision model based on a custom dataset of pizza, steak and sushi images.
+3. **02_PyTorch_neuralnetworkclassification.ipynb**
+   - **Description:** Explores neural network architectures for classification tasks, demonstrating how to implement and train them in PyTorch.
+
+4. **02.5_PyTorch_MulticlassClassification.ipynb**
+   - **Description:** Focuses on handling multiclass classification problems using PyTorch, building upon previous classification concepts.
+
+5. **03_PyTorch_ComputerVision.ipynb**
+   - **Description:** Applies PyTorch techniques to computer vision tasks, showcasing how to work with image data and convolutional neural networks.
+
+6. **04_PyTorch_CustomDatasets.ipynb**
+   - **Description:** Demonstrates how to create and utilize custom datasets in PyTorch, facilitating flexibility in data handling.
+
+7. **05_TinyResNet.ipynb**
+   - **Description:** Implements a miniature version of the ResNet architecture, offering insights into building and training deeper networks.
+
+8. **06_ClassifierApp_ResNet50.ipynb**
+   - **Description:** Showcases the development of a classifier application using the ResNet50 model, integrating pre-trained networks for practical use.
+
+## Getting Started
+
+To explore these notebooks:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RyanTang019/PyTorch.git
